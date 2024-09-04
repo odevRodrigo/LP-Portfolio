@@ -1,0 +1,221 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu {
+    margin-top: 49px;
+    text-align: right;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #070F18;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#headerCta h1 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+#buttonCta {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerCta p {
+    font-family: Poppins;
+    font-size: 13.5px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #575455;
+    margin-bottom: 35px;
+
+}
+
+#headerImg  {
+    margin-left: 42px;
+}
+
+#headerImg img {
+    width: 100%;
+}
+
+#headerClientText {
+    font-family: Poppins;
+    font-size: 12px;
+    text-align: left;
+    color: #070F18;
+}
+
+.headerLogo {
+    text-align: center;
+}
+
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2.red {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 700;
+    color: #F75C4E;
+}
+
+h1.black {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+#services {
+    text-align: center;
+}
+
+#help {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #575455;
+    text-align: center;
+}
+
+.textCenter {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.textCenter h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #070F18;
+    margin-bottom: 0;
+}
+
+.textCenter p {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: #575455;
+    margin-top: 0;
+}
+
+#contactImg img {
+    width: 100%;
+}
+
+#contactForm {
+    margin-left: 75px;
+}
+
+#contact {
+    margin-top: 100px;
+}
+
+#contactForm p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+
+#contactForm input {
+    width: 406px;
+    height: 48px;
+    top: 1594px;
+    left: 813px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    border-style: hidden;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #575455;
+    background: #F5F6FB;
+    width: 70%;
+    padding-left: 50px;
+}
+
+#contactForm button {
+    width: 180px;
+    height: 48px;
+    top: 1662px;
+    left: 813px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    background: #1F7CFF;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    border-style: hidden;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#myPort {
+    margin-top: 80px;
+}
+
+.imgPort {
+    margin-top: 35px;
+}
+
+.imgPort img {
+    width: 90%;
+}
